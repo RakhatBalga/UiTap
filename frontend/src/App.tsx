@@ -18,10 +18,10 @@ const sampleProperty: Property = {
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
+    <div className="font-sans min-h-screen bg-gray-100 flex flex-col">
       <Header />
       <main className="flex flex-1 flex-col items-center justify-center gap-8 p-8">
-        <h1 className="text-3xl font-bold text-blue-600 underline">
+        <h1 className="text-3xl font-bold text-brand underline">
           Привет, UiTap!
         </h1>
         <div className="w-full max-w-sm">
