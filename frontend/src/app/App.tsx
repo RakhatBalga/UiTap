@@ -1,6 +1,6 @@
-import { PropertyCard } from './components/PropertyCard'
-import type { Property } from './types/property'
-import { Header } from './components/header'
+import type { Property } from '../entities/property'
+import { PropertyCard } from '../entities/property'
+import { Header } from '../widgets/header'
 
 const sampleProperty: Property = {
   id: '1',
