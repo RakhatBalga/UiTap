@@ -14,7 +14,7 @@ export const PropertyCard = ({ property }: { property: Property }) => {
           {property.price.toLocaleString()} ₸
         </div>
         <div className="text-gray-700 font-medium mt-1">
-          {property.rooms} rooms, {property.area} м²
+          {property.rooms} rooms, {property.area} m²
         </div>
         <div className="text-gray-500 text-sm mt-1">
           {property.city}, {property.district}
